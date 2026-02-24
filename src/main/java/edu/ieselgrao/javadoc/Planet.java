@@ -150,7 +150,7 @@ public class Planet {
     }
 
     /**
-     * Este methodo sirve para verificar si la masa del plante es menor que la masa minima de un planete.
+     * Este methodo sirve para verificar si la masa del plante es menor que la masa minima de un planete antes de asignarlo.
      *
      * @param mass Masa del planeta medida en kilogramos
      * @throws IllegalArgumentException if la masa es menor que la masa minima de un planete.
@@ -184,7 +184,7 @@ public class Planet {
     }
 
     /**
-     * Este methodo sirve para comprobar si la varibale gravity es negativo
+     * Este methodo sirve para comprobar si la varibale gravity es negativo antes de asignarlo.
      *
      * @param gravity gravity Gravedad superficial del planeta.
      * @throws IllegalArgumentException if graviti es negativo
@@ -200,7 +200,7 @@ public class Planet {
     }
 
     /**
-     * Este methodo sirve para comprobar si la variable lastAlbedoMeasurement es null o After Locale DATE
+     * Establece un valor al atributo LastAlbedoMeasurement
      *
      * @param lastAlbedoMeasurement lastAlbedoMeasurement Fecha de la última medición de albedo.
      * @throws  IllegalArgumentException if lastAlbedoMeasurement es null o despues del la varible LocaleDate.Now.

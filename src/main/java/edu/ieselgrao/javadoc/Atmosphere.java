@@ -50,7 +50,7 @@ public class Atmosphere
     }
 
     /**
-     * Este methodo sirve para comprobar la variable antes de asignarla al atributo composicion.
+     * Este methodo sirve para comprobar la variable si no es null y no está vacia antes de asignarla al atributo composicion.
      * @param composition Se refiere a la composición del aire o sustancia.
      * @throws Exception if composition is null, vacia o contiene caracteres no validos.
      */
@@ -104,7 +104,7 @@ public class Atmosphere
     }
 
     /**
-     * Este methodo sirve para comprobar la variable pressure if es negativo antes de asignarlo
+     * Este methodo sirve para comprobar la variable pressure if es negativo antes de asignarlo al atributo
      * @param pressure Es la presión atmosférica.
      * @throws Exception if pressure is negativo
      */
@@ -120,7 +120,7 @@ public class Atmosphere
     }
 
     /**
-     * Este methodo sirve para comprobar if density es negativo
+     * Este methodo sirve para comprobar if density es positivo antes de asignarlo al atributo
      * @param density Es la densidad del aire, es decir, cuánta masa hay en un determinado volumen.
      * @throws Exception if density es negativo
      */
